@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    font-family:  cursive;
+    color: rgb(45, 41, 44);
+    background-color: rgb(247, 239, 247);
+}
+
+#main-header{
+    background-color: rgb(117, 211, 94);
+    color: whitesmoke;
+    padding: 2rem 5%;
+    text-align: center;
+}
