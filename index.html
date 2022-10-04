@@ -12,8 +12,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/overlays.css">
   </head>
   <body>
+    <div id="backdrop"></div>
     <header id="main-header">
       <h1>Try A m itTic toc tie</h1>
       <p>
@@ -22,7 +24,7 @@
       </p>
     </header>
     <main>
-      <aside>
+      <aside class="modal">
         <h2>Choose your name</h2>
         <form>
           <div>
@@ -30,8 +32,8 @@
             <input type="text" name="username" id="playername" />
           </div>
           <div>
-            <button type="button">Cancel</button>
-            <button type="submit">Confirm</button>
+            <button type="button" class="btn btn-alt">Cancel</button>
+            <button type="submit" class="btn">Confirm</button>
           </div>
         </form>
       </aside>
@@ -42,7 +44,7 @@
               <h2>1st Player</h2>
               <h3>Name Of PLAYER</h3>
               <p>X</p>
-              <button>Edit</button>
+              <button class="btn btn-alt">Edit</button>
             </article>
           </li>
           <li>
@@ -54,7 +56,7 @@
             </article>
           </li>
         </ol>
-        <button>Let's Start New Game</button>
+        <button class="btn">Let's Start New Game</button>
       </section>
       <section id="active-game"></section>
 
