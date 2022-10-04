@@ -27,7 +27,7 @@
 #game-configuration{
     width: 90%;
     max-width: 40rem;
-    margin: 3rem auto;
+    margin: 2.5rem auto;
     text-align: center;
 }
 
@@ -61,6 +61,7 @@
 .player-symbol{
     font-size: 2rem;
     font-weight: bold;
-    margin-top: 0.5rem 0;
+    margin-top: 0;
+    margin-bottom: 0;
     color: rgb(4, 82, 35);
 }
